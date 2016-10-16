@@ -1,0 +1,27 @@
+________________________________________________________________________________
+
+			       Project Arcana Dex
+				 Demo Version 1
+				   2016-10-14
+				  Jonathon Bly
+________________________________________________________________________________
+
+#001 Fire Starter
+		HP	Atk	Def	SAtk	SDef	Spd
+Egg		39	52	43	60	50	65
+Lvl 16		58	64	58	80	65	80
+Lvl 36		78	84	78	109	85	100
+
+Level Moves (Egg):
+-- Scratch, --Growl, 7 Ember, 10 Smokescreen, 16 Dragon Rage, 19 Scary Face, 25 
+Fire Fang, 28 Flame Burst, 34 Slash, 37 Flamethrower, 43 Fire Spin, 46 Inferno
+
+Level Moves (Lvl 16):
+17 Dragon Rage, 21 Scary Face, 28 Fire Fang, 32 Flame Burst, 39 Slash, 43 
+Flamethrower, 50 Fire Spin, 54 Inferno
+
+Level Moves (Lvl 36):
+36 Wing Attack, 41 Slash, 47 Flamethrower, 56 Fire Spin, 62 Inferno, 71 Heat 
+Wave, 77 Flare Blitz
+________________________________________________________________________________
+ vim:tw=80
