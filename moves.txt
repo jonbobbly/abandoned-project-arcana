@@ -11,6 +11,15 @@ Move Name
 	Effect: effect description
 ________________________________________________________________________________
 
+
+Aqua Tail
+	Water	Phys	90	90%	--
+Bite
+	Dark	Phys	60	100%	30%
+	Effect: May cause the opponent to FLINCH
+Bubble
+	Water	Sp	40	100%	10%
+	Effect: May lower opponent's SPEED one stage
 Dragon Rage
 	Dragon	Sp	--	100%	--
 	Effect: Always inflicts 40 HP of damage
@@ -23,11 +32,11 @@ Fire Fang
 Fire Spin
 	Fire	Sp	35	85%	100%
 	Effect: TRAPs opponent
+Flame Burst
+	Fire	Sp	70	100%	--
 Flamethrower
 	Fire	Sp	90	100%	10%
 	Effect: May induce BURN
-Flame Burst
-	Fire	Sp	70	100%	--
 Flare Blitz
 	Fire	Phys	120	100%	10%
 	Cost: 1/3 of damage in RE-COIL
@@ -38,22 +47,51 @@ Growl
 Heat Wave
 	Fire	Sp	95	90%	10%
 	Effect: May induce BURN
+Hydro Pump
+	Water	Sp	110	80%	--
 Inferno
 	Fire	Sp	100	50%	100%
 	Effect: May induce BURN
+Iron Defense
+	Steel	Status	0	0	--
+	Effect: Raises user's DEFENSE two stages
+Protect
+	Normal	Status	0	90%	--
+	Effect: The move's accuracy drops 30% each time it is used in a row
+Rain Dance
+	Water	Status	0	0	--
+	Effect: Causes RAIN for 5 rounds
+Rapid Spin
+	Normal	Phys	20	100%	--
+	Effect: User becomes free from moves like Wrap, Bind, and Leech Seed.
 Scary Face
 	Normal	Stat	0	100%	--
 	Effect: Lowers foe's SPEED two stages
 Scratch
 	Normal	Phys	40	100%	--
+Skull Bash
+	Normal	Phys	130	100%	100%
+	Effect: Raises the user's DEFENSE one stage and attacks next turn.
 Slash
 	Normal	Phys	70	100%	--
 	Effect: CRITICAL HITs are more frequent
 Smokescreen
-	Normal	Stat	0	100%	--
+	Normal	Status	0	100%	--
 	Effect: Lowers foe's ACCURACY one stage
+Tackle
+	Normal	Phys	50	100%	--
+Tail Whip
+	Normal	Status	0	100%	--
+	Effect: Lowers opponent's DEFENSE one stage.
+Water Gun
+	Water	Sp	40	100%	--
+Water Pulse
+	Water	Sp	60	100%	20%
+	Effect: May induce CONFUSION.
 Wing Attack
 	Flying	Phys	60	100%	--
-
+Withdraw
+	Water	Status	0	0	--
+	Raises user's DEFENSE one stage.
 ________________________________________________________________________________
  vim:tw=80
