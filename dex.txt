@@ -42,6 +42,24 @@ Level Moves (Lvl 16):
 
 Level Moves (Lvl 36):
 39 Skull Bash, 46 Iron Defense, 53 Rain Dance, 60 Hydro Pump
+________________________________________________________________________________
 
+#003 Grass Starter
+Form		HP	Atk	Def	SAtk	SDef	Spd
+Egg		45	49	49	65	65	45
+Lvl 16		60	62	63	80	80	60
+Lvl 32		80	82	83	100	100	80
+
+Level Moves (Egg):
+-- Tackle, 3 Growl, 7 Leech Seed, 9 Vine Whip, 13 Poison Powder, 13 Sleep 
+Powder, 15 Take Down, 19 Razor Leaf, 21 Sweet Scent, 25 Growth, 27 Double-Edge, 
+31 Worry Seed, 33 Synthesis, 37 Seed Bomb
+
+Level Moves (Lvl 16):
+20 Razor Leaf, 23 Sweet Scent, 28 Growth, 31 Double-Edge, 36 Worry Seed, 39 
+Synthesis, 44 Solar Beam
+
+Level Moves (Lvl 32):
+32 Petal Dance, 39 Worry Seed, 45 Synthesis, 50 Petal Blizzard, 53 Solar Beam
 ________________________________________________________________________________
  vim:tw=80

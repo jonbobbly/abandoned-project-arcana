@@ -20,6 +20,10 @@ Bite
 Bubble
 	Water	Sp	40	100%	10%
 	Effect: May lower opponent's SPEED one stage
+Double-Edge
+	Normal	Phys	120	100%	--
+	Effect: User takes RECOIL damage equal to a third of the damage 
+	inflicted.
 Dragon Rage
 	Dragon	Sp	--	100%	--
 	Effect: Always inflicts 40 HP of damage
@@ -42,8 +46,11 @@ Flare Blitz
 	Cost: 1/3 of damage in RE-COIL
 	Effect: May BURN opponent
 Growl
-	Normal	Stat	0	100%	--
+	Normal	Status	0	100%	--
 	Effect: Foe's ATTACK stat is lowered one stage
+Growth
+	Normal	Status	0	100%	--
+	Effect: Lowers opponent's ATTACK one stage.
 Heat Wave
 	Fire	Sp	95	90%	10%
 	Effect: May induce BURN
@@ -55,6 +62,17 @@ Inferno
 Iron Defense
 	Steel	Status	0	0	--
 	Effect: Raises user's DEFENSE two stages
+Leech Seed
+	Grass	Status	0	90%	--
+	Effect: User steals HP from the opponent every turn.
+Petal Blizzard
+	Grass	Phys	90	100%	--
+Petal Dance
+	Grass	Sp	120	100%	--
+	User uses the same attack for 2-3 turns then becomes CONFUSED.
+Poison Powder
+	Poison	Status	0	75%	--
+	Effect: Induces POISON
 Protect
 	Normal	Status	0	90%	--
 	Effect: The move's accuracy drops 30% each time it is used in a row
@@ -64,25 +82,47 @@ Rain Dance
 Rapid Spin
 	Normal	Phys	20	100%	--
 	Effect: User becomes free from moves like Wrap, Bind, and Leech Seed.
+Razor Leaf
+	Grass	Phys	55	95%	--
+	Effect: Has hight CRIT ratio
 Scary Face
 	Normal	Stat	0	100%	--
 	Effect: Lowers foe's SPEED two stages
 Scratch
 	Normal	Phys	40	100%	--
+Seed Bomb
+	Grass	Phys	80	100%	--
 Skull Bash
 	Normal	Phys	130	100%	100%
 	Effect: Raises the user's DEFENSE one stage and attacks next turn.
 Slash
 	Normal	Phys	70	100%	--
 	Effect: CRITICAL HITs are more frequent
+Sleep Powder
+	Grass	Status	0	75%	--
+	Effect: Induces SLEEP.
 Smokescreen
 	Normal	Status	0	100%	--
 	Effect: Lowers foe's ACCURACY one stage
+Solar Beam
+	Grass	Sp	120	100%	--
+	Effect: Wait one turn, then attack
+Sweet Scent
+	Normal	Status	0	100%	--
+	Effect: Lowers opponent's EVASION two stages.
+Synthesis
+	Grass	Status	0	0	--
+	Effect: User restores HP based on weather.
 Tackle
 	Normal	Phys	50	100%	--
 Tail Whip
 	Normal	Status	0	100%	--
 	Effect: Lowers opponent's DEFENSE one stage.
+Take Down
+	Normal	Phys	90	85%	--
+	Effect: User takes RECOIL equal to 25% of the damage inflicted.
+Vine Whip
+	Grass	Phys	45	100%	--
 Water Gun
 	Water	Sp	40	100%	--
 Water Pulse
@@ -93,5 +133,7 @@ Wing Attack
 Withdraw
 	Water	Status	0	0	--
 	Raises user's DEFENSE one stage.
+Worry Seed
+	Grass	Status	0	100%	--
 ________________________________________________________________________________
  vim:tw=80
