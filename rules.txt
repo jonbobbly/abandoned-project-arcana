@@ -8,8 +8,39 @@ ________________________________________________________________________________
 
 I. Battle
 	A. Overview
-	B. Damage Calculation
+	B. Battle Calculations
+		1. Turn Order
+		2. Types and Damage
+		3. Exp and EVs earned
 	C. Battle Effects
-	D. Gaining Exp
+________________________________________________________________________________
+
+I. Battle
+A. Overview
+	Battle in Project Arcana is much the same as in the Pokemon games. When 
+	the player enters into battle, each side sends out the first arcana in 
+	their parties. For wild arcana, obviously it's a "party of one," and so 
+	only one option is available. Once the arcana are on the battlefield, 
+	turn order is established and each side takes one of four possible 
+	actions.
+
+	First and most obvious, the player (or wild arcana or enemy trainer) may 
+	choose to attack with one of the up to four moves the active arcana 
+	knows. Unlike the Pokemon games, these moves can be used an unlimited 
+	number of times in most cases. Running out of moves is not a thing.
+
+	Second, the player may choose to use a battle item. These can items such 
+	as a potion to restore health or items that temporarily improve stats. 
+	In the case of a wild battle, the player may also choose to use a (as 
+	yet unnamed) capturing item. These are basically pokeballs, but I don't 
+	have a name for them quite yet.
+
+	Third, should the active arcana be found unfit to continue (for example 
+	because of type disadvantage), they can be switched out for another 
+	arcana in the party. This is also a great way to give exp to a weak 
+	arcana, since all arcana that have been active in a battle receive exp 
+	if the battle is won.
+
+	Last, and only in the case of wild arcana, the player may try to run.
 ________________________________________________________________________________
  vim:tw=80
