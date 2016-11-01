@@ -8,11 +8,12 @@ ________________________________________________________________________________
 
 I. Battle
 	A. Overview
-	B. Battle Calculations
+	B. Condensed Rules
+	C. Battle Calculations
 		1. Turn Order
 		2. Types and Damage
 		3. Exp and EVs earned
-	C. Battle Effects
+	D. Battle Effects
 ________________________________________________________________________________
 
 I. Battle
@@ -42,5 +43,25 @@ A. Overview
 	if the battle is won.
 
 	Last, and only in the case of wild arcana, the player may try to run.
+
+B. Condensed Rules
+	Round Start
+		Round Upkeep
+			Speed Check
+		Turn 1 Begins
+			Turn Upkeep
+				Status effects applied (e.g. Burn)
+				Attempt to break some effects (e.g. PARALYZED)
+			Main Action (Only one of the following):
+				Attack
+				Switch
+				Item
+				Run
+			Apply Effects of Action (except Switch)
+		Turn 1 Ends
+		Turn 2 (same logic as Turn 1)
+	Round Ends
+		Apply Switches if any are done
+		Loop back to Round Start until an arcana feints.
 ________________________________________________________________________________
  vim:tw=80
