@@ -6,11 +6,35 @@ ________________________________________________________________________________
 				  Jonathon Bly
 ________________________________________________________________________________
 
-#0001 Genbi > Home > Living Room
-#0002 Genbi > Home > Upstairs
+#0001 Genbi > Home > Upstairs
+	Travel:
+		Living Room		#0002	1m
+#0002 Genbi > Home > Living Room
+	Travel:
+		Town Square		#0003	1m
+		Upstairs		#0001	1m
 #0003 Genbi > Town Square
+	Travel:
+		Home > Living Room	#0002	5m
+		Prof's Lab		#0004	5m
+		Rival's House		#0005	5m
+		Path 1			#0006   5m
 #0004 Genbi > Prof's Lab
+	Travel:
+		Town Square		#0003	1m
 #0005 Genbi > Rival's House
+	Travel:
+		Town Square		#0003	1m
 #0006 Path 1
+	Encounter (1d6):
+		1-3: None
+		4  : Fire Starter
+			<more details soon>
+		5  : Grass Starter
+			<more details soon>
+		6  : Water Starter
+			<more details soon>
+	Travel:
+		Genbi > Town Square	#0003	10m
 ________________________________________________________________________________
  vim:tw=80
