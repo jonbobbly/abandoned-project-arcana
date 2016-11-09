@@ -6,7 +6,10 @@ ________________________________________________________________________________
 				  Jonathon Bly
 ________________________________________________________________________________
 
-I. Battle
+I. Temporary Math Section
+	A. Stats
+	B. Battle
+II. Battle
 	A. Overview
 	B. Condensed Rules
 	C. Battle Calculations
@@ -16,7 +19,45 @@ I. Battle
 	D. Battle Effects
 ________________________________________________________________________________
 
-I. Battle
+I. Temporary Math Section
+A. Stats
+	
+	HP = floor( (floor( EV/4 ) + IV + Base + 100)(Level/100) + 8 )
+
+	Stat = floor ( (floor( EV/4 ) + IV + Base)(Level/100) + 5 )
+
+B. Battle
+	
+	Dmg = floor( (Atk/Def)(Level/100)(power)(STAB)(weakness) )
+
+C. Weakness
+     | N   F   F | P   G     |     G     | W   G   E | P       D 
+     | r   i   l | o   r   R |     h   F | a   r   l | s       r 
+     | m   g   y | i   u   o | B   o   i | t   a   e | y   I   a   
+     | a   h   n | s   n   c | u   s   r | e   s   c | c   c   g   
+     | l   t   g | n   d   k | g   t   e | r   s   t | h   e   n
+-----+-----------+-----------+-----------+-----------+-----------
+Nrmal|           |        1/2|     0     |           |
+Fight| 2      1/2|1/2      2 |1/2  0     |           |1/2  2
+Flyng|     2     |        1/2| 2         |     2  1/2|
+-----+-----------+-----------+-----------+-----------+-----------
+Poisn|           |1/2 1/2 1/2|    1/2    |     2     |
+Grund|         0 |           |           |           |
+ Rock|           |           |           |           |
+-----+-----------+-----------+-----------+-----------+-----------
+  Bug|           |           |           |           |
+Ghost|           |           |           |           |
+ Fire|           |           |           |           |
+-----+-----------+-----------+-----------+-----------+-----------
+Water|           |           |           |           |
+Grass|           |           |           |           |
+Elect|           |           |           |           |
+-----+-----------+-----------+-----------+-----------+-----------
+Psych|           |           |           |           |
+  Ice|           |           |           |           |
+Dragn|           |           |           |           |
+
+II. Battle
 A. Overview
 	Battle in Project Arcana is much the same as in the Pokemon games. When 
 	the player enters into battle, each side sends out the first arcana in 
