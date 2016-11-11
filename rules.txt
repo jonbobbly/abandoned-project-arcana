@@ -10,6 +10,7 @@ I. Temporary Math Section
 	A. Stats
 	B. Battle
 	C. Weakness
+	D. XP Classes
 II. Battle
 	A. Overview
 	B. Condensed Rules
@@ -58,6 +59,12 @@ Elect|         2 |     0     |           | 2  1/2 1/2|        1/2
 Psych|     2     | 2         |           |           |1/2
   Ice|         2 |     2     |        1/2|1/2  2     |    1/2  2
 Dragn|           |           |           |           |         2
+
+D. XP Classes
+
+Slow 	= ceil( (4/3)Lvl^3 )
+Medium 	= ceil(    Lvl^3   )
+Fast	= ceil( (3/4)Lvl^3 )
 
 II. Battle
 A. Overview
