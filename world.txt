@@ -19,6 +19,7 @@ ________________________________________________________________________________
 		Prof's Lab		#0004	5m
 		Rival's House		#0005	5m
 		Path 1			#0006   5m
+		Arcana Center		#0007	5m
 #0004 Genbi > Prof's Lab
 	TRAVEL:
 		Town Square		#0003	1m
@@ -58,5 +59,13 @@ ________________________________________________________________________________
 
 	TRAVEL:
 		Genbi > Town Square	#0003	10m
-________________________________________________________________________________
+#0007 Genbi > Arcana Center
+	PEOPLE:
+		Nurse Julie
+		Welcome to the Genbi Arcana Center! Please sit down and rest 
+		while we heal your arcana to full health.
+		:: Fully restore all party arcana ::
+	TRAVEL:
+		Town Square		#0003	1m
+_______________________________________________________________________________
  vim:tw=80
