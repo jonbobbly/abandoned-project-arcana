@@ -12,6 +12,8 @@ Egg		39	52	43	60	50	65
 Lvl 16		58	64	58	80	65	80
 Lvl 36		78	84	78	109	85	100
 
+XP Class: Medium
+
 Level Moves (Egg):
 -- Scratch, -- Growl, 7 Ember, 10 Smokescreen, 16 Dragon Rage, 19 Scary Face, 25 
 Fire Fang, 28 Flame Burst, 34 Slash, 37 Flamethrower, 43 Fire Spin, 46 Inferno
@@ -31,6 +33,8 @@ Egg		44	48	65	50	64	43
 Lvl 16		59	63	80	65	80	58
 Lvl 36		79	83	100	85	105	78
 
+XP Class: Medium
+
 Level Moves (Egg):
 -- Tackle, 4 Tail Whip, 7 Water Gun, 10 Withdraw, 13 Bubble, 16 Bite, 19 Rapid 
 Spin, 22 Protect, 25 Water Pulse, 28 Aqua Tail, 32 Skull Bash, 34 Iron Defense, 
@@ -49,6 +53,8 @@ Form		HP	Atk	Def	SAtk	SDef	Spd
 Egg		45	49	49	65	65	45
 Lvl 16		60	62	63	80	80	60
 Lvl 32		80	82	83	100	100	80
+
+XP Class: Medium
 
 Level Moves (Egg):
 -- Tackle, 3 Growl, 7 Leech Seed, 9 Vine Whip, 13 Poison Powder, 13 Sleep 

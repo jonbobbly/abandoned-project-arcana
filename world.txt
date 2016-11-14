@@ -30,32 +30,39 @@ ________________________________________________________________________________
 	ENCOUNTER (1d6):
 	1-3: 	None
 
-	4  : 	Fire Starter (Lvl 5)
+	4:	Bird (Lvl 8, XP 256)
 		HP Atk Def SAtk SDef Spd
-		14 7   7   8    7    8
-		Scratch
-			Normal	Phys	40	100%	--
-		Growl
-			Normal	Status	0	100%	--
-			Effect: Foe's ATTACK stat is lowered one stage
+		20 8   8   7    7    9
 
-	5  :	Grass Starter (Lvl 5)
-		HP Atk Def SAtk SDef Spd
-		15 7   7   8    8    7
 		Tackle
 			Normal	Phys	50	100%	--
-		Growl
-			Normal	Status	0	100%	--
-			Effect: Foe's ATTACK stat is lowered one stage
+		Sand Attack
+			Ground	Status	--	100%	--
+			Foe's accuracy is lowered by one stage
 
-	6  :	Water Starter (Lvl 5)
+	5:	Bird (Lvl 9, XP 364)
 		HP Atk Def SAtk SDef Spd
-		15 7   8   7    8    7
+		20 9   8   8    8    10
+
 		Tackle
 			Normal	Phys	50	100%	--
-		Tail Whip
-			Normal	Status	0	100%	--
-			Effect: Lowers foe's DEFENSE one stage.
+		Sand Attack
+			Ground	Status	--	100%	--
+			Foe's accuracy is lowered by one stage
+		Gust
+			Flying	Sp	40	100%	--
+
+	6:	Bird (Lvl 10, XP 500)
+		HP Atk Def SAtk SDef Spd
+		22 9   9   8    8    10
+
+		Tackle
+			Normal	Phys	50	100%	--
+		Sand Attack
+			Ground	Status	--	100%	--
+			Foe's accuracy is lowered by one stage
+		Gust
+			Flying	Sp	40	100%	--
 
 	TRAVEL:
 		Genbi > Town Square	#0003	10m
