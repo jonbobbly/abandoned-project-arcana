@@ -62,4 +62,25 @@ Synthesis, 44 Solar Beam
 Level Moves (Lvl 32):
 32 Petal Dance, 39 Worry Seed, 45 Synthesis, 50 Petal Blizzard, 53 Solar Beam
 ________________________________________________________________________________
+
+#004 Bird
+Form		HP	Atk	Def	SAtk	SDef	Spd
+Egg		40	45	40	35	35	56
+Lvl 18		63	60	55	50	50	71
+Lvl 36		83	80	80	135	80	121
+
+Level Moves (Egg):
+-- Tackle, 5 Sand Attack, 9 Gust, 13 Quick Attack, 17 Whirlwind, 21 Twister, 25 
+Feather Dance, 29 Agility, 33 Wing Attack, 37 Roost, 41 Tailwind, 45 Mirror 
+Move, 49 Air Slash, 53 Hurricane
+
+Level Moves (Lvl 18):
+22 Twister, 27 Feather Dance, 32 Agility, 37 Wing Attack, 42 Roost, 47 Tailwind, 
+52 Mirror Move, 57 Air Slash, 62 Hurricane
+
+Level Moves (Lvl 32):
+32 Agility, 38 Wing Attack, 44 Roost, 50 Tailwind, 56 Mirror Move, 62 Air Slash, 
+68 Hurricane
+
+________________________________________________________________________________
  vim:tw=80
