@@ -1,0 +1,12 @@
+________________________________________________________________________________
+
+			      Project Arcana News
+				   2017-05-13
+				  Jonathon Bly
+________________________________________________________________________________
+
+After a long break, I have decided that I will be returning to Project Arcana. 
+I've got some ideas to make development more simple, meaning that I should be 
+able to get an "alpha-level" build of the game available sooner.
+________________________________________________________________________________
+ vim:tw=80
