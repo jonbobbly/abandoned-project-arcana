@@ -1,0 +1,15 @@
+Each round of battle is broken down into two turns: one for each combatant.
+At the start of each round, the arcana with the highest speed stat is awarded the first turn.
+In a turn, an arcana may do one of the following: use a move, use an item, swap with another in the party, or try to run away.
+Physical, special, and status are the three categories of moves. Physical make contact, specials do not, and status changes a stat or condition.
+Arcana and moves each have types. When the type of the user matches the move type, the move is 50% stronger.
+Arcana types are strong against some types and weak against others. Strong attacks are 2x as good, weak attacks are 1/2x as good.
+Items used in battle come in two types: those that affect stats, and items used to capture wild arcana.
+Wild arcana have a capture rate that determines how difficult they are to catch.
+Items can affect the capture rate of wild arcana such as stronger nets or bait that makes the wild arcana feel happier.
+Arcana nets are the items used to capture arcana. They come in many varieties, each with their own use-case.
+The moves of wild arcana are chosen at random with dice rolls.
+Moves have a limited amount of use in battle before they arcana is too tired to use them.
+Recovering 1 move point requires 1 minute of rest.
+Time in the game only passes when the player takes an action. It has no relation with real time at all.
+An arcana has a pool of move points equal to 5 + level. Moves cost different amounts of points to use.
