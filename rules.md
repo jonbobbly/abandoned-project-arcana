@@ -46,23 +46,23 @@ Moves with a power rating above 0 can do damage, either physical or "special," a
 (atk / def)(level / 100)( power )( STAB )( weakness )
 
 <dl>
-	<dt>atk</dt>
-	<dd>The Player's Attack</dd>
+<dt>atk</dt>
+<dd>The Player's Attack</dd>
 
-	<dt>def</dt>
-	<dd>The Foe's Defense</dd>
+<dt>def</dt>
+<dd>The Foe's Defense</dd>
 
-	<dt>level</dt>
-	<dd>The Player's Level</dd>
+<dt>level</dt>
+<dd>The Player's Level</dd>
 
-	<dt>power</dt>
-	<dd>The power of the attacking move</dd>
+<dt>power</dt>
+<dd>The power of the attacking move</dd>
 
-	<dt>STAB</dt>
-	<dd>Same Type Attack Bonus. If the attacking move matches one of the types of the arcana using it, STAB = 1.5, otherwise STAB = 1.</dd>
+<dt>STAB</dt>
+<dd>Same Type Attack Bonus. If the attacking move matches one of the types of the arcana using it, STAB = 1.5, otherwise STAB = 1.</dd>
 
-	<dt>weakness</dt>
-	<dd>This is found by reading the chart in the Weakness section.</dd>
+<dt>weakness</dt>
+<dd>This is found by reading the chart in the Weakness section.</dd>
 </dl>
 
 This will often generate a number with decimals. Ignore everything past the decimal point and just use the whole number. For example, if the formula gave a result of 3.834, the actual value will be 3. 
