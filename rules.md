@@ -36,22 +36,37 @@ A status effect includes things like poison, sleep, or being trapped in vines. F
 ### Weakness
 Some arcana types are weak against certain types of moves. Also, some are resistant to certain types of moves. To find out if a type is strong or weak against another type, check the chart below:
 
-| Move is strong (x2)            | Defending Type | Move is weak (x0.5)           |
-|--------------------------------|----------------|-------------------------------|
-| Fight                          | Normal         |                               |
-| Flying, Psychic                | Fight          | Normal, Ice, Rock             |
-| Electric, Ice, Rock            | Flying         | Grass, Fight, Bug             |
-| Ground, Psychic                | Poison         | Grass                         |
-| Water, Grass, Ice              | Ground         | Fire, Electric, Poison, Rock  |
-| Water, Grass, Fight, Ground    | Rock           | Fire, Ice, Flying, Bug        |
-| Fire, Flying, Rock             | Bug            | Grass, Psychic                |
-| Psychic, Ghost                 | Ghost          | Normal, Fight                 |
-| Water, Ground, Rock            | Fire           | Grass, Ice, Bug               |
-| Electric, Grass                | Water          | Fire, Ground, Rock            |
-| Fire, Ice, Poison, Flying, Bug | Grass          | Water, Ground, Rock           |
-| Ground                         | Electric       | Water, Flying                 |
-| Bug, Ghost                     | Psychic        | Fight, Poison                 |
-| Fire, Fight, Rock              | Ice            | Grass, Ground, Flying, Dragon |
-| Ice, Dragon                    | Dragon         |                               |
+| Move     | Defending Arcana                    |
+|---------:|-------------------------------------|
+| Bug      | Grass Psychic                       |
+|     *NVE*| Fire Fight Poison Flying Ghost      |
+| Dragon   | Dragon                              |
+|     *NVE*|                                     |
+| Electric | Water Flying                        |
+|     *NVE*| Electric Grass Dragon (Ground)      |
+| Fight    | Normal Ice Rock                     |
+|     *NVE*| Poison Flying Psychic Bug           |
+| Fire     | Grass Ice Bug                       |
+|     *NVE*| Fire Water Rock Dragon              |
+| Flying   | Grass Fight Bug                     |
+|     *NVE*| Electric Rock                       |
+| Ghost    | Psychic Ghost                       |
+|     *NVE*| (Normal)                            |
+| Grass    | Water Ground Rock                   |
+|     *NVE*| Fire Grass Poison Flying Bug Dragon |
+| Ground   | Fire Electric Poison Rock           |
+|     *NVE*| Grass Bug (Flying)                  |
+| Ice      | Grass Ground Flying Dragon          |
+|     *NVE*| Fire Water Ice                      |
+| Normal   |                                     |
+|     *NVE*| Rock (Ghost)                        |
+| Poison   | Grass                               |
+|     *NVE*| Poison Ground Rock Ghost            |
+| Psychic  | Fight Poison                        |
+|     *NVE*| Psychic                             |
+| Rock     | Fire Ice Flying Bug                 |
+|     *NVE*| Fight Ground                        |
+| Water    | Fire Ground Rock                    |
+|     *NVE*| Water Grass Dragon                  |
 
-To use the chart, look up the defending arcana's type in the center column. If the attacking move is in the left column of that row, it does double damage. If the attacking move is in the right column, it does half damage. All other moves do normal damage. If the arcana has more than one type, check both then use the one that is worse for the defending arcana.
+To use this chart, look up the attacking move type. If the defending arcana's type is in the row next to the move type, that move does double damage. If the move is in the *Not Very Effective* row, that move does half damage.
