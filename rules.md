@@ -1,11 +1,28 @@
 # Project Arcana Rules
 
 ## Note
-*Version: 20170706*
+*v0.0.1-alpha1*
 
-This rule set is part of the alpha phase of development. There is no promise of a working game yet, just some vague guidelines to help develop the final rules.
+This rule set is part of the early phase of development. There is no promise of a working game yet, just some vague guidelines to help develop the final rules.
 
-## Combat
+Also, while the rules make reference to "saving" various pieces of information in the game, such as which arcana you have caught, right now there is no official system for tracking and recording such information. That is something that I'm going to let grow out of various playtests and time.
+
+## Arcana Stats
+An arcana has various kinds of stats. These are its Base Stats, Individual Values (IVs) and Effort Values (EVs).
+
+### Base Stats
+The Base Stats are the stats that are common to a Form. All arcana with the same Form have the same Base Stats.
+
+### IVs and EVs
+Individual Values are specific to each arcana. They are determined when the arcana hatch and never change through-out an arcana's life. Effort Values, on the other hand, can be changed through dedicated training at a gym.
+
+*Note: EVs and EV training are not in this version. Please count all EVs as 0.*
+
+### Arcana Levels and XP
+As an arcana wins in combat, they earn XP. After a certain amount of XP has been attained, the arcana will "level up." When an arcana reaches a higher level, it will be more powerful in combat. Some arcana even change into more powerful forms after they have reached certain levels.
+
+
+## Wild Combat
 Combat is one of the central components of Project Arcana. Most of the player's time is spent in combat. There are two main types of combat: between the player and wild Arcana, and between the player and other arcana trainers.
 
 ### Rounds and Turns
@@ -28,7 +45,27 @@ Moves with a power rating above 0 can do damage, either physical or "special," a
 
 (atk / def)(level / 100)( power )( STAB )( weakness )
 
-Here, atk is the player's arcana's attack, def is the defending arcana's defense, level is the player's arcana's level, power is the power rating of the move being used, STAB is Same Type Attack Bonus, and weakness is a bonus from from the weakness chart. This will often generate a number with decimals. Ignore everything past the decimal point and just use the whole number. For example, if the formula gave a result of 3.834, the actual value will be 3. When looking up the weakness on the weakness chart, use the type of the move against the type of the defending arcana. If the arcana has more than one type, use the one that gives a higher bonus.
+<dl>
+	<dt>atk</dt>
+	<dd>The Player's Attack</dd>
+
+	<dt>def</dt>
+	<dd>The Foe's Defense</dd>
+
+	<dt>level</dt>
+	<dd>The Player's Level</dd>
+
+	<dt>power</dt>
+	<dd>The power of the attacking move</dd>
+
+	<dt>STAB</dt>
+	<dd>Same Type Attack Bonus. If the attacking move matches one of the types of the arcana using it, STAB = 1.5, otherwise STAB = 1.</dd>
+
+	<dt>weakness</dt>
+	<dd>This is found by reading the chart in the Weakness section.</dd>
+</dl>
+
+This will often generate a number with decimals. Ignore everything past the decimal point and just use the whole number. For example, if the formula gave a result of 3.834, the actual value will be 3. 
 
 ### Status Effects
 A status effect includes things like poison, sleep, or being trapped in vines. For this version, please ignore any status effects induced by moves. These will be implemented in a future version.
@@ -67,4 +104,8 @@ Some arcana types are weak against certain types of moves. Also, some are resist
 | Water    | Super | Fire Ground Rock                    |
 |          | NVE   | Water Grass Dragon                  |
 
-To use this chart, look up the attacking move type. If the defending arcana's type is in the row next to the move type, that move does double damage. If the type is in the *Not Very Effective* row, that move does half damage. If the type is in (parentheses), it does no damage at all.
+To use this chart, look up the attacking move type. If the defending arcana's type is in the row labeled "Super", that move is super effective and deals double damage. If the defending arcana's type is in the "NVE" row, that move is Not Very Effective and deals half damage. If the defending arcana's type is in parentheses, the move deals no damage.
+
+### Fainting
+When an arcana runs out of HP, it faints and is unable to battle. When that happens, XP is awarded.
+
